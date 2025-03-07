@@ -1,4 +1,5 @@
-import { StrictMode } from "react";
+// скрыл чтобы не отпралвять лишние запросы в режиме разработки
+// import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
 import "./normalize.scss";
