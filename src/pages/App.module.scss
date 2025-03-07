@@ -1,0 +1,7 @@
+@use '../utils/styles/variables.scss' as *;
+
+.content{
+  display: grid;
+  min-height: calc(100vh - 49px);
+  grid-template-columns: 240px 1fr;
+}

@@ -1,0 +1,40 @@
+@use "../../utils/styles/mixin.scss" as *;
+@use "../../utils/styles/variables.scss" as *;
+
+.titleBox {
+  @include border-right;
+  padding: 11px 16px 12px;
+  display: inline-block;
+}
+
+.title {
+  @include title;
+  & {
+    display: inline-block;
+  }
+}
+
+.ul {
+  @include ul;
+  @include border-top;
+  padding: 12px 10px;
+
+  &_child {
+    padding: 0;
+  }
+
+  &__firstLi {
+    @include border-bottom;
+    @include grid_by_work_list;
+    height: 30px;
+  }
+}
+
+.text {
+  @include text;
+  & {
+    color: $accient_text_color;
+    vertical-align: middle;
+    margin: 0 auto auto 12px;
+  }
+}

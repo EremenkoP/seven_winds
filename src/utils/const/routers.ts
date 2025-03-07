@@ -1,0 +1,18 @@
+export const routers = {
+  main: "/",
+  controle: "/controle",
+  objects: "/objects",
+  rd: "/rd",
+  logistics: "/logistics",
+  constructionInstallationWorks: "/construction-installation-works",
+  schedule: "/schedule",
+  mim: "/mim",
+  workers: "/workers",
+  capitalInvestments: "/capital-investments",
+  budget: "/budget",
+  financing: "/financing",
+  panoramas: "/panoramas",
+  cameras: "/cameras",
+  instructions: "/instructions",
+  contractors: "/contractors",
+};

@@ -1,0 +1,9 @@
+@use './utils/styles/variables.scss' as *;
+
+* {
+  background-color: $primary_background_color;
+}
+
+body{
+  min-height: 100vh;
+}
